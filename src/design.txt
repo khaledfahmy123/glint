@@ -1,0 +1,17 @@
+font-main: raleway
+font-secondary: lora regular
+
+h1: 78px - 73px
+h2: 60px - 30px
+h3: 30px - 24px
+h4: 17px - 15px
+h5: 14px - 12px
+
+p: 24px - 17px
+p2: 15px -
+
+
+number: 84px- 73px;
+
+main-clr: #838688;
+second-clr: #39b54a;
