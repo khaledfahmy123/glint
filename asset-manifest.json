@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.716882ef.chunk.css",
+    "main.js": "/react-gh-pages/static/js/main.bcd69377.chunk.js",
+    "main.js.map": "/react-gh-pages/static/js/main.bcd69377.chunk.js.map",
+    "runtime-main.js": "/react-gh-pages/static/js/runtime-main.ef5a3e2d.js",
+    "runtime-main.js.map": "/react-gh-pages/static/js/runtime-main.ef5a3e2d.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/react-gh-pages/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.5c3d0848.chunk.js": "/react-gh-pages/static/js/2.5c3d0848.chunk.js",
+    "static/js/2.5c3d0848.chunk.js.map": "/react-gh-pages/static/js/2.5c3d0848.chunk.js.map",
+    "index.html": "/react-gh-pages/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/react-gh-pages/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.716882ef.chunk.css.map": "/react-gh-pages/static/css/main.716882ef.chunk.css.map",
+    "static/js/2.5c3d0848.chunk.js.LICENSE.txt": "/react-gh-pages/static/js/2.5c3d0848.chunk.js.LICENSE.txt",
+    "static/media/car.webp": "/react-gh-pages/static/media/car.601393e5.webp",
+    "static/media/chair.webp": "/react-gh-pages/static/media/chair.cdd64a15.webp",
+    "static/media/main.css": "/react-gh-pages/static/media/hero-bg.jpg.979b51ee.webp",
+    "static/media/grass.webp": "/react-gh-pages/static/media/grass.7e3caf8a.webp",
+    "static/media/green-logo.webp": "/react-gh-pages/static/media/green-logo.d6c37c3b.webp",
+    "static/media/logo-inner.webp": "/react-gh-pages/static/media/logo-inner.02ae1c9b.webp",
+    "static/media/photographer.webp": "/react-gh-pages/static/media/photographer.825822e5.webp",
+    "static/media/plant.webp": "/react-gh-pages/static/media/plant.f453d78c.webp",
+    "static/media/singer.webp": "/react-gh-pages/static/media/singer.994fe795.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef5a3e2d.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.5c3d0848.chunk.js",
+    "static/css/main.716882ef.chunk.css",
+    "static/js/main.bcd69377.chunk.js"
+  ]
+}
