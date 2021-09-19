@@ -18,6 +18,33 @@ import {
   faLayerGroup,
 } from "@fortawesome/free-solid-svg-icons";
 
+export const nav_data = [
+  {
+    title: "home",
+    link: "#home",
+  },
+  {
+    title: "about",
+    link: "#about",
+  },
+  {
+    title: "services",
+    link: "#services",
+  },
+  {
+    title: "work",
+    link: "#work",
+  },
+  {
+    title: "clients",
+    link: "#clients",
+  },
+  {
+    title: "contact",
+    link: "#contact",
+  },
+];
+
 export const social = [
   {
     link: "https://www.facebook.com/",

@@ -1,0 +1,96 @@
+.nav-btn {
+  right: 0;
+  position: fixed;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 28px;
+  z-index: 5;
+  width: auto;
+}
+nav {
+  position: fixed;
+  height: 100%;
+  width: 0px;
+  z-index: 6;
+  right: 0;
+  transition: all 0.2s ease-in-out;
+  background: #0c0c0c;
+}
+
+.open {
+  width: 260px;
+  padding: 36px;
+}
+
+nav div {
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 40px 0;
+}
+
+nav div h5 {
+  margin: 0;
+  text-align: left;
+  width: 80%;
+}
+
+nav div span {
+  width: 20%;
+  font-size: 18px;
+  text-align: right;
+  cursor: pointer;
+}
+
+nav main,
+nav h5 {
+  opacity: 0;
+  transition: all 0.1s ease;
+}
+
+nav .open-main {
+  width: 100%;
+  animation: close 0.8s ease-in-out forwards 0.1s;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Raleway", serif;
+  letter-spacing: 2px;
+  padding: 8px 0;
+  text-align: left;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+nav ul a:hover {
+  color: var(--clr-green);
+}
+
+nav p {
+  padding: 20px 0 0 0;
+  font-size: 13px;
+  color: #555;
+  font-family: "Raleway", serif;
+}
+
+@keyframes close {
+  0% {
+    transform: translate(40%);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0%);
+    opacity: 1;
+  }
+}

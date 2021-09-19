@@ -1,13 +1,19 @@
 import React, { useEffect, useRef } from "react";
 import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLink, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  faLink,
+  faEnvelope,
+  faTimes,
+  faBars,
+} from "@fortawesome/free-solid-svg-icons";
 import AOS from "aos";
 import useScrollPosition from "@react-hook/window-scroll";
 import CountUp from "react-countup";
 import "aos/dist/aos.css";
-import { social, counters, services, gallery } from "./data";
+import { social, counters, services, gallery, nav_data } from "./data";
 import "./../css/main.css";
+import "./../css/nav.css";
 
 var id = new Date();
 
@@ -20,6 +26,7 @@ const App = () => {
 
   return (
     <>
+      <Nav></Nav>
       <Header></Header>
       <About></About>
       <Services></Services>
@@ -31,10 +38,64 @@ const App = () => {
   );
 };
 
+const Nav = () => {
+  const clicked = () => {
+    document.querySelector("nav").classList.toggle("open");
+    document.querySelector("nav main").classList.toggle("open-main");
+    document.querySelector("nav h5").classList.toggle("open-main");
+  };
+
+  return (
+    <>
+      <button
+        className="logo nav-btn"
+        onClick={() => {
+          console.log("lol");
+          clicked();
+        }}
+      >
+        <FontAwesomeIcon icon={faBars} className="icon"></FontAwesomeIcon>
+      </button>
+      <nav>
+        <div>
+          <h5>Navigation</h5>
+          <span
+            onClick={() => {
+              clicked();
+            }}
+          >
+            <FontAwesomeIcon className="icon" icon={faTimes}></FontAwesomeIcon>
+          </span>
+        </div>
+        <main className="">
+          <ul>
+            {nav_data.map((e) => {
+              return (
+                <>
+                  <li key={id.getTime()}>
+                    <a href={e.link}>{e.title}</a>
+                  </li>
+                </>
+              );
+            })}
+          </ul>
+
+          <p>
+            Perspiciatis hic praesentium nesciunt. Et neque a dolorum voluptatem
+            porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis
+            neque reprehenderit.
+          </p>
+          <Social></Social>
+        </main>
+      </nav>
+    </>
+  );
+};
+
 const Header = () => {
   return (
     <>
-      <header>
+      <header id="home">
         <a href="#">
           <img
             data-aos={"fade"}
@@ -43,7 +104,7 @@ const Header = () => {
           ></img>
         </a>
         <ul
-          className="social-links"
+          className="social-links social-side"
           data-aos={"fade-left"}
           data-aos-delay="1200"
           data-aos-duration="500"
@@ -89,7 +150,7 @@ const About = () => {
 
   return (
     <>
-      <section className="about hide-scroll">
+      <section className="about hide-scroll" id="about">
         <div className="cont">
           <h4 data-aos={"fade-up"}>HELLO THERE</h4>
           <div data-aos={"fade-up"}>
@@ -132,7 +193,7 @@ const About = () => {
 const Services = () => {
   return (
     <>
-      <section className="services hide-scroll">
+      <section className="services hide-scroll" id="services">
         <div className="cont">
           <h4 data-aos={"fade-up"}>WHAT WE DO</h4>
           <div data-aos={"fade-up"}>
@@ -172,7 +233,7 @@ const Services = () => {
 const Work = () => {
   return (
     <>
-      <section className="work">
+      <section className="work" id="work">
         <div className="overlay"></div>
         <div className="cont">
           <h4>RECENT WORKS</h4>
@@ -215,7 +276,7 @@ const Work = () => {
 const Clients = () => {
   return (
     <>
-      <section className="clients">
+      <section className="clients" id="clients">
         <div className="cont">
           <h4>OUR CLIENTS</h4>
           <h2>Glint has been honored to partner up with these clients</h2>
@@ -228,12 +289,12 @@ const Clients = () => {
 const Contact = () => {
   return (
     <>
-      <section className="contact">
+      <section className="contact" id="contact">
         <div className="overlay"></div>
         <div className="cont">
           <h4>CONTACT US</h4>
           <h2>Reach out for a new project or just say hello</h2>
-          <main className="project">
+          <main className="project" data-aos={"fade-up"}>
             <form>
               <h5>SEND US A MESSAGE</h5>
               <input
