@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/glint/static/css/main.be6ac1fa.chunk.css",
-    "main.js": "/glint/static/js/main.75c2c688.chunk.js",
-    "main.js.map": "/glint/static/js/main.75c2c688.chunk.js.map",
+    "main.js": "/glint/static/js/main.4c2ee9c8.chunk.js",
+    "main.js.map": "/glint/static/js/main.4c2ee9c8.chunk.js.map",
     "runtime-main.js": "/glint/static/js/runtime-main.0897a419.js",
     "runtime-main.js.map": "/glint/static/js/runtime-main.0897a419.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/glint/static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.5938d398.chunk.js": "/glint/static/js/2.5938d398.chunk.js",
-    "static/js/2.5938d398.chunk.js.map": "/glint/static/js/2.5938d398.chunk.js.map",
+    "static/js/2.9d490361.chunk.js": "/glint/static/js/2.9d490361.chunk.js",
+    "static/js/2.9d490361.chunk.js.map": "/glint/static/js/2.9d490361.chunk.js.map",
     "index.html": "/glint/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/glint/static/css/2.7fc9bc2b.chunk.css.map",
     "static/css/main.be6ac1fa.chunk.css.map": "/glint/static/css/main.be6ac1fa.chunk.css.map",
-    "static/js/2.5938d398.chunk.js.LICENSE.txt": "/glint/static/js/2.5938d398.chunk.js.LICENSE.txt",
+    "static/js/2.9d490361.chunk.js.LICENSE.txt": "/glint/static/js/2.9d490361.chunk.js.LICENSE.txt",
     "static/media/car.webp": "/glint/static/media/car.601393e5.webp",
     "static/media/chair.webp": "/glint/static/media/chair.cdd64a15.webp",
     "static/media/main.css": "/glint/static/media/hero-bg.jpg.979b51ee.webp",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.0897a419.js",
     "static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.5938d398.chunk.js",
+    "static/js/2.9d490361.chunk.js",
     "static/css/main.be6ac1fa.chunk.css",
-    "static/js/main.75c2c688.chunk.js"
+    "static/js/main.4c2ee9c8.chunk.js"
   ]
 }
